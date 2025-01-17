@@ -6,7 +6,7 @@
 
 
 
-/*My solution */
+/*My solution wrapped in ()*/
 
 items = []
 items.push ({a: "b", c: "d"});
