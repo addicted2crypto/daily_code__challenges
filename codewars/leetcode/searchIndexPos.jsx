@@ -39,10 +39,13 @@ var searchInsert = function(nums, target) {
     while(left <= right){
         const mid = Math.floor((left + right) / 2);
         if(nums[mid] === target){
+            //found it yayy
             return mid;
         } else if(nums[mid] < target){
+            //yeet left side of nums
             left = mid + 1;
         } else {
+            //yeet right side of nums
             right = mid -1;
         }
     }
