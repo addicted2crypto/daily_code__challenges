@@ -18,7 +18,7 @@
 // Input: haystack = "leetcode", needle = "leeto"
 // Output: -1
 // Explanation: "leeto" did not occur in "leetcode", so we return -1.
- /* My Solution */
+ /* My Solution indexOf used*/
 
 
  var strStr = function(haystack, needle) {
