@@ -16,13 +16,12 @@
 
 // int[] nums = [...]; // Input array
 // int val = ...; // Value to remove
-// int[] expectedNums = [...]; // The expected answer with correct length.
-//                             // It is sorted with no values equaling val.
-
-// int k = removeElement(nums, val); // Calls your implementation
+// int[] expectedNums = [...]; 
+// int k = removeElement(nums, val); // // The expected answer with correct length is 0 <= k <= nums.length.
+// int actualLength = nums.length; // Length of nums after the code above executes
 
 // assert k == expectedNums.length;
-// sort(nums, 0, k); // Sort the first k elements of nums
+// sort(nums, 0, k); 
 // for (int i = 0; i < actualLength; i++) {
 //     assert nums[i] == expectedNums[i];
 // }
