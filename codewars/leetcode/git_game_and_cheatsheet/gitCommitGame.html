@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Commit Master — Interactive Learning</title>
+  <style>
+    :root {
+      --primary: #3578e5;
+      --secondary: #2c3e50;
+      --success: #27ae60;
+      --warning: #f39c12;
+      --danger: #e74c3c;
+      --light: #f8f9fa;
+      --dark: #212529;
+      --border-radius: 12px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: var(--light);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #3578e5, #5d4157);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: var(--secondary);
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 50px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: var(--border-radius);
+      padding: 30px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: var(--border-radius);
+      padding: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .card .question {
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #e0e0e0;
+    }
+
+    .card .answer {
+      display: none;
+      font-style: italic;
+      color: #a0e0ff;
+      margin-top: 10px;
+      padding: 12px;
+      background: rgba(0, 123, 255, 0.1);
+      border-radius: 8px;
+      border-left: 4px solid #3578e5;
+    }
+
+    .card:hover .answer {
+      display: block;
+    }
+
+    .game-section {
+      margin-top: 60px;
+    }
+
+    .game-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .game-card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: var(--border-radius);
+      padding: 15px;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .game-card:hover {
+      background: rgba(53, 120, 229, 0.2);
+    }
+
+    .game-card.matched {
+      opacity: 0.6;
+      pointer-events: none;
+    }
+
+    .game-card.selected {
+      border: 2px solid #3578e5;
+      background: rgba(53, 120, 229, 0.3);
+    }
+
+    .timer {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 20px 0;
+      color: var(--warning);
+    }
+
+    .score {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 20px;
+      color: var(--success);
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: var(--border-radius);
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #2a66cc;
+    }
+
+    .result {
+      text-align: center;
+      font-size: 1.8rem;
+      margin: 30px 0;
+      font-weight: bold;
+    }
+
+    .emoji {
+      font-size: 1.5rem;
+      margin-right: 8px;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2.2rem; }
+      h2 { font-size: 1.5rem; }
+      .card, .game-card { padding: 15px; }
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(53, 120, 229, 0.3);
+      color: #3578e5;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      margin-left: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Git Commit Master</h1>
+      <p>Learn, Memorize, Match — Master Git Commits & Commands</p>
+    </header>
+
+    <div class="section">
+      <h2>🔍 Hover to Reveal: Git Commit Types & Examples</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="question">feat: Add dark mode toggle</div>
+          <div class="answer">New feature added — e.g., UI enhancement, new endpoint</div>
+        </div>
+        <div class="card">
+          <div class="question">fix: Resolve memory leak in cache module</div>
+          <div class="answer">Bug fix — e.g., crash, incorrect behavior, memory leak</div>
+        </div>
+        <div class="card">
+          <div class="question">docs: Update API documentation</div>
+          <div class="answer">Changes to documentation only — no code change</div>
+        </div>
+        <div class="card">
+          <div class="question">refactor: Extract auth service into module</div>
+          <div class="answer">Code restructuring — no behavior change</div>
+        </div>
+        <div class="card">
+          <div class="question">test: Add integration test for payment gateway</div>
+          <div class="answer">Add or update tests — ensures reliability</div>
+        </div>
+        <div class="card">
+          <div class="question">chore: Update dependencies to latest versions</div>
+          <div class="answer">Maintenance tasks — build tools, dependencies, config</div>
+        </div>
+        <div class="card">
+          <div class="question">perf: Reduce image load time by 40%</div>
+          <div class="answer">Performance improvement — measurable speed gain</div>
+        </div>
+        <div class="card">
+          <div class="question">security: Patch XSS vulnerability</div>
+          <div class="answer">Security fix — e.g., injection, auth bypass</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section game-section">
+      <h2>⏱️ Timed Matching Game: Match the Command to the Description</h2>
+      <div class="timer">60</div>
+      <div class="score">Score: 0</div>
+      <div class="game-grid" id="game-grid">
+        <!-- Dynamically filled by JS -->
+      </div>
+      <button class="btn" id="start-btn">Start Game</button>
+      <div class="result" id="result"></div>
+    </div>
+
+  </div>
+
+  <script>
+    const commands = [
+      { cmd: "feat: Add dark mode toggle", desc: "New feature added — e.g., UI enhancement, new endpoint" },
+      { cmd: "fix: Resolve memory leak in cache module", desc: "Bug fix — e.g., crash, incorrect behavior, memory leak" },
+      { cmd: "docs: Update API documentation", desc: "Changes to documentation only — no code change" },
+      { cmd: "refactor: Extract auth service into module", desc: "Code restructuring — no behavior change" },
+      { cmd: "test: Add integration test for payment gateway", desc: "Add or update tests — ensures reliability" },
+      { cmd: "chore: Update dependencies to latest versions", desc: "Maintenance tasks — build tools, dependencies, config" },
+      { cmd: "perf: Reduce image load time by 40%", desc: "Performance improvement — measurable speed gain" },
+      { cmd: "security: Patch XSS vulnerability", desc: "Security fix — e.g., injection, auth bypass" },
+      { cmd: "git log --oneline", desc: "Show clean, one-line commit history" },
+      { cmd: "git commit --amend", desc: "Edit the last commit message" },
+      { cmd: "git reset --soft HEAD~1", desc: "Undo commit but keep changes staged" },
+      { cmd: "git rebase -i HEAD~3", desc: "Squash or reorder last 3 commits" },
+      { cmd: "git stash", desc: "Temporarily save uncommitted changes" },
+      { cmd: "git checkout -b new-feature", desc: "Create and switch to a new branch" },
+      { cmd: "git merge --no-ff", desc: "Preserve merge commit for clarity" },
+      { cmd: "git blame <file>", desc: "See who last modified each line" }
+    ];
+
+    const gameGrid = document.getElementById('game-grid');
+    let timer, score = 0, matchedPairs = 0;
+    let selectedCards = [];
+
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function createGameCards() {
+      const allItems = [...commands];
+      const shuffled = shuffle(allItems);
+      gameGrid.innerHTML = '';
+
+      shuffled.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'game-card';
+        card.dataset.type = 'cmd';
+        card.innerHTML = `<div class="emoji">🔍</div><div>${item.cmd}</div>`;
+        card.addEventListener('click', handleCardClick);
+
+        const descCard = document.createElement('div');
+        descCard.className = 'game-card';
+        descCard.dataset.type = 'desc';
+        descCard.innerHTML = `<div class="emoji">📝</div><div>${item.desc}</div>`;
+        descCard.addEventListener('click', handleCardClick);
+
+        gameGrid.appendChild(card);
+        gameGrid.appendChild(descCard);
+      });
+    }
+
+    function handleCardClick(e) {
+      const card = e.target.closest('.game-card');
+      if (!card || card.classList.contains('matched') || card.classList.contains('selected')) return;
+
+      card.classList.add('selected');
+
+      if (selectedCards.length === 0) {
+        selectedCards.push(card);
+      } else if (selectedCards.length === 1) {
+        const first = selectedCards[0];
+        const second = card;
+
+        if (first.dataset.type !== second.dataset.type) {
+          const firstText = first.querySelector('div').textContent;
+          const secondText = second.querySelector('div').textContent;
+
+          const match = commands.some(c => 
+            (c.cmd === firstText && c.desc === secondText) ||
+            (c.desc === firstText && c.cmd === secondText)
+          );
+
+          if (match) {
+            score++;
+            document.querySelector('.score').textContent = `Score: ${score}`;
+            first.classList.add('matched');
+            second.classList.add('matched');
+            matchedPairs++;
+            selectedCards = [];
+            if (matchedPairs === commands.length) {
+              clearInterval(timer);
+              document.getElementById('result').innerHTML = `🎉 You won! Score: ${score}/${commands.length} 🏆`;
+              document.getElementById('result').style.color = '#27ae60';
+            }
+          } else {
+            setTimeout(() => {
+              first.classList.remove('selected');
+              second.classList.remove('selected');
+              selectedCards = [];
+            }, 800);
+          }
+        } else {
+          setTimeout(() => {
+            first.classList.remove('selected');
+            selectedCards = [];
+          }, 500);
+        }
+      }
+    }
+
+    document.getElementById('start-btn').addEventListener('click', () => {
+      document.getElementById('result').innerHTML = '';
+      score = 0;
+      matchedPairs = 0;
+      selectedCards = [];
+      document.querySelector('.score').textContent = `Score: ${score}`;
+      document.querySelector('.timer').textContent = '60';
+      createGameCards();
+
+      timer = setInterval(() => {
+        const time = parseInt(document.querySelector('.timer').textContent);
+        if (time <= 1) {
+          clearInterval(timer);
+          document.getElementById('result').innerHTML = `⏰ Time's up! Final Score: ${score}/${commands.length}`;
+          document.getElementById('result').style.color = '#e74c3c';
+        } else {
+          document.querySelector('.timer').textContent = time - 1;
+        }
+      }, 1000);
+    });
+
+    // Initialize on load
+    createGameCards();
+  </script>
+</body>
+</html>
