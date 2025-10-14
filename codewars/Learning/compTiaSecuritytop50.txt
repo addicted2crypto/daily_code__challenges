@@ -1,0 +1,400 @@
+Card 1
+Q: What type of attack involves encrypting files and demanding payment for decryption?
+A: Ransomware
+B: Phishing
+C: Spoofing
+D: DoS attack
+Answer: A - Ransomware specifically encrypts victim files and demands payment for decryption keys, making it the most accurate description of this attack type.
+
+Card 2
+Q: Which control type aims to prevent security breaches from happening?
+A: Detective controls
+B: Preventive controls
+C: Corrective controls
+D: Deterrent controls
+Answer: B - Preventive controls are designed to stop security incidents before they occur through measures like access controls, firewalls, and authentication.
+
+Card 3
+Q: What does the acronym CIA stand for in security?
+A: Confidentiality, Integrity, Availability
+B: Communication, Identification, Authentication
+C: Control, Implementation, Assessment
+D: Certification, Integrity, Authorization
+Answer: A - CIA triad represents the three fundamental principles of information security: confidentiality (protecting data), integrity (ensuring accuracy), and availability (maintaining access).
+
+Card 4
+Q: Which of the following is a technical control?
+A: Security policy
+B: Training programs
+C: Firewall
+D: Risk assessment
+Answer: C - Firewalls are technical controls because they are hardware or software mechanisms that enforce security policies at the network level.
+
+Card 5
+Q: What is the primary purpose of non-repudiation?
+A: To prevent unauthorized access to systems
+B: To ensure that a party cannot deny their involvement in a transaction
+C: To maintain system availability during attacks
+D: To detect security breaches after they occur
+Answer: B - Non-repudiation prevents denial of actions by ensuring parties cannot deny their participation in transactions through cryptographic proofs.
+
+Card 6
+Q: What type of attack involves using social engineering to gain access to systems?
+A: Phishing
+B: Man-in-the-middle
+C: DDoS
+D: SQL injection
+Answer: A - Phishing is a social engineering attack where attackers deceive victims into revealing sensitive information through deceptive communications.
+
+Card 7
+Q: Which of the following ensures that only authorized individuals can access resources?
+A: Availability
+B: Integrity
+C: Confidentiality
+D: Authentication
+Answer: C - Confidentiality ensures that information is accessible only to those authorized to have access, preventing unauthorized disclosure.
+
+Card 8
+Q: What type of attack involves sending unsolicited emails with malicious attachments?
+A: Spear phishing
+B: Spam
+C: Whaling
+D: Vishing
+Answer: B - Spam refers to unsolicited bulk email messages, often containing malicious attachments or links designed to compromise systems.
+
+Card 9
+Q: Which of the following is a detective control?
+A: Password policies
+B: Intrusion Detection System (IDS)
+C: Firewalls
+D: Access controls
+Answer: B - IDS is a detective control because it monitors and detects suspicious activities after they occur, alerting administrators to potential security issues.
+
+Card 10
+Q: What type of attack involves intercepting communication between two parties?
+A: Man-in-the-middle
+B: Replay attack
+C: Eavesdropping
+D: Session hijacking
+Answer: A - Man-in-the-middle attacks involve an attacker positioning themselves between communicating parties to intercept, modify, or redirect communication.
+
+Card 11
+Q: What is the primary purpose of a firewall?
+A: To encrypt data transmission
+B: To filter network traffic based on predetermined security rules
+C: To authenticate users accessing the network
+D: To monitor network performance
+Answer: B - Firewalls filter network traffic by applying security rules to determine which packets should be allowed or blocked.
+
+Card 12
+Q: What type of attack involves exploiting a vulnerability in a system?
+A: Exploitation attack
+B: Reconnaissance
+C: Privilege escalation
+D: Buffer overflow
+Answer: A - Exploitation attacks specifically target system vulnerabilities to gain unauthorized access or execute malicious code.
+
+Card 13
+Q: What is the main purpose of a security policy?
+A: To define acceptable behavior and security expectations
+B: To encrypt all organizational data
+C: To establish physical security measures
+D: To create backup procedures
+Answer: A - Security policies establish organizational standards, guidelines, and expectations for security practices and acceptable behavior.
+
+Card 14
+Q: Which of the following is an example of a preventive control?
+A: Intrusion detection system
+B: Security logs
+C: Password policies
+D: Security audits
+Answer: C - Password policies are preventive controls that establish requirements to prevent unauthorized access through weak authentication.
+
+Card 15
+Q: What does the term "zero-day vulnerability" mean?
+A: A vulnerability that is known to the vendor but not yet patched
+B: A vulnerability that was discovered by a third party
+C: A vulnerability that is unknown to the vendor and has no patch available
+D: A vulnerability that affects only one system
+Answer: C - Zero-day vulnerabilities are unknown to vendors and lack available patches, making them particularly dangerous.
+
+Card 16
+Q: What is the purpose of encryption?
+A: To protect data confidentiality by converting it into unreadable format
+B: To increase network bandwidth
+C: To authenticate users
+D: To detect network intrusions
+Answer: A - Encryption transforms readable data into ciphertext to protect it from unauthorized access while in transit or at rest.
+
+Card 17
+Q: What type of attack involves overwhelming a system with requests?
+A: Man-in-the-middle
+B: DoS attack
+C: DNS tunneling
+D: SQL injection
+Answer: B - DoS (Denial of Service) attacks flood systems with traffic to make services unavailable to legitimate users.
+
+Card 18
+Q: Which of the following is a type of malware that spreads itself automatically?
+A: Virus
+B: Worm
+C: Trojan
+D: Rootkit
+Answer: B - Worms are self-replicating malware that spread across networks without requiring user interaction or host files.
+
+Card 19
+Q: What is the main goal of a security awareness training program?
+A: To teach technical skills to IT staff
+B: To educate employees about security threats and best practices
+C: To install security software on devices
+D: To audit security configurations
+Answer: B - Security awareness training educates all employees about common threats, social engineering tactics, and proper security behaviors.
+
+Card 20
+Q: What type of attack involves capturing network traffic to steal sensitive information?
+A: Spoofing
+B: Sniffing
+C: Brute force
+D: Rainbow table attack
+Answer: B - Sniffing involves capturing and analyzing network packets to obtain sensitive information like passwords or personal data.
+
+Card 21
+Q: What is the purpose of a security audit?
+A: To evaluate the effectiveness of security controls and compliance with policies
+B: To install new security software
+C: To perform vulnerability assessments
+D: To train employees on security procedures
+Answer: A - Security audits systematically examine security controls, processes, and compliance with established policies and regulations.
+
+Card 22
+Q: Which of the following is a type of access control?
+A: Role-Based Access Control (RBAC)
+B: Public Key Infrastructure (PKI)
+C: Security Information and Event Management (SIEM)
+D: Network Address Translation (NAT)
+Answer: A - RBAC is an access control model that grants permissions based on user roles within an organization.
+
+Card 23
+Q: What is the main benefit of implementing a security baseline?
+A: To establish minimum security requirements for systems
+B: To eliminate all security risks
+C: To reduce employee training costs
+D: To simplify network configuration
+Answer: A - Security baselines define minimum acceptable security configurations that all systems must meet to maintain basic protection levels.
+
+Card 24
+Q: What is the purpose of a risk assessment?
+A: To identify and evaluate potential security risks to the organization
+B: To implement security controls immediately
+C: To replace security policies entirely
+D: To conduct security audits regularly
+Answer: A - Risk assessments systematically identify, analyze, and prioritize potential security threats and vulnerabilities.
+
+Card 25
+Q: Which of the following is a type of authentication factor?
+A: Something you know
+B: Something you see
+C: Something you feel
+D: Something you hear
+Answer: A - Something you know is a knowledge-based authentication factor, such as passwords, PINs, or security questions.
+
+Card 26
+Q: What is the main advantage of multifactor authentication (MFA)?
+A: Increased security through multiple verification factors
+B: Reduced login time
+C: Simplified password management
+D: Lower hardware costs
+Answer: A - MFA requires multiple independent verification factors, significantly reducing the risk of unauthorized access even if one factor is compromised.
+
+Card 27
+Q: What is the purpose of a digital certificate?
+A: To verify the identity of entities in digital communications
+B: To encrypt data transmissions
+C: To store user credentials securely
+D: To manage access controls
+Answer: A - Digital certificates contain public keys and identity information, verified by trusted Certificate Authorities to establish trust in digital communications.
+
+Card 28
+Q: What type of attack involves tricking users into revealing sensitive information?
+A: Phishing
+B: DDoS
+C: Man-in-the-middle
+D: SQL injection
+Answer: A - Social engineering attacks like phishing manipulate users into voluntarily disclosing confidential information.
+
+Card 29
+Q: What is the main purpose of a backup strategy?
+A: To ensure data recovery in case of loss or corruption
+B: To increase storage capacity
+C: To encrypt sensitive data
+D: To improve system performance
+Answer: A - Backup strategies create copies of data to restore systems and information after disasters, failures, or data corruption events.
+
+Card 30
+Q: Which of the following is a type of access control model?
+A: Discretionary Access Control (DAC)
+B: Security Through Obscurity
+C: Defense in Depth
+D: Risk Assessment
+Answer: A - DAC allows resource owners to control access permissions for their own resources, providing flexible but potentially less secure access control.
+
+Card 31
+Q: What is the purpose of a security incident response plan?
+A: To outline procedures for handling security incidents effectively
+B: To define security policies for the organization
+C: To train employees on security awareness
+D: To conduct regular vulnerability scans
+Answer: A - Incident response plans provide structured approaches for detecting, responding to, and recovering from security incidents to minimize damage.
+
+Card 32
+Q: What type of attack involves using stolen credentials to gain unauthorized access?
+A: Credential theft
+B: Social engineering
+C: Man-in-the-middle
+D: Phishing
+Answer: A - Credential theft attacks involve stealing usernames, passwords, or other authentication credentials to impersonate legitimate users.
+
+Card 33
+Q: What is the main goal of a security architecture?
+A: To provide a structured approach to securing IT assets
+B: To reduce employee training costs
+C: To eliminate all security threats
+D: To standardize network hardware
+Answer: A - Security architecture provides a comprehensive framework for designing, implementing, and maintaining security controls across an organization's IT infrastructure.
+
+Card 34
+Q: Which of the following is a type of security control?
+A: Administrative
+B: Physical
+C: Technical
+D. All of the above
+Answer: D - Security controls are categorized into administrative (policies), technical (tools), and physical (hardware) categories.
+
+Card 35
+Q: What is the purpose of a security governance framework?
+A: To establish policies and procedures for managing security risks
+B: To implement security technologies
+C: To train employees on security awareness
+D: To audit network performance
+Answer: A - Security governance frameworks provide organizational structure, policies, and procedures for managing information security risks strategically.
+
+Card 36
+Q: What is the main benefit of implementing a security awareness program?
+A: To reduce human error-related security incidents
+B: To eliminate all security threats
+C: To reduce hardware costs
+D: To increase network bandwidth
+Answer: A - Security awareness programs help reduce incidents caused by human error, which accounts for a significant percentage of security breaches.
+
+Card 37
+Q: What is the purpose of a security risk register?
+A: To document and track identified security risks
+B: To encrypt sensitive data
+C: To establish backup procedures
+D: To configure firewalls
+Answer: A - Risk registers maintain records of identified risks, their likelihood, impact, and mitigation status for ongoing risk management.
+
+Card 38
+Q: Which of the following is a type of security monitoring tool?
+A: SIEM (Security Information and Event Management)
+B: Firewall
+C: Antivirus software
+D: IDS
+Answer: A - SIEM tools collect, correlate, and analyze security events from various sources to detect and respond to threats in real-time.
+
+Card 39
+Q: What is the main purpose of a disaster recovery plan?
+A: To ensure business continuity after a disaster
+B: To encrypt all company data
+C: To train employees on security procedures
+D: To implement security controls
+Answer: A - Disaster recovery plans ensure that critical business functions can continue or resume quickly after disruptive events.
+
+Card 40
+Q: What is the purpose of a penetration test?
+A: To simulate real-world attacks to identify vulnerabilities
+B: To encrypt network traffic
+C: To audit user access rights
+D: To install security patches
+Answer: A - Penetration tests are authorized simulated attacks conducted to find security weaknesses before malicious actors discover them.
+
+Card 41
+Q: Which of the following is a type of network attack?
+A: Port scanning
+B: Password cracking
+C: Data mining
+D: Social media analysis
+Answer: A - Port scanning is a reconnaissance technique used to identify open ports and services on target systems for exploitation.
+
+Card 42
+Q: What is the main goal of a vulnerability assessment?
+A: To identify weaknesses in systems and networks
+B: To implement security controls
+C: To train employees
+D: To audit financial records
+Answer: A - Vulnerability assessments systematically identify and catalog security weaknesses in systems, applications, and networks.
+
+Card 43
+Q: What is the purpose of a security incident report?
+A: To document and analyze security incidents for improvement
+B: To encrypt sensitive data
+C: To establish backup procedures
+D: To configure access controls
+Answer: A - Incident reports provide detailed documentation that helps organizations understand what happened, why it occurred, and how to prevent similar incidents.
+
+Card 44
+Q: Which of the following is a type of security breach?
+A: Unauthorized access
+B: Regular maintenance
+C: System updates
+D: Employee training
+Answer: A - Unauthorized access represents a security breach where individuals gain access to systems or data without proper authorization.
+
+Card 45
+Q: What is the main benefit of implementing a security patch management process?
+A: To reduce exposure to known vulnerabilities
+B: To increase network speed
+C: To reduce employee training costs
+D: To eliminate all security risks
+Answer: A - Patch management reduces the window of opportunity for attackers to exploit known vulnerabilities in software and systems.
+
+Card 46
+Q: What is the purpose of a security training program?
+A: To educate personnel on security best practices and threats
+B: To install security software
+C: To audit network performance
+D: To encrypt data
+Answer: A - Security training programs educate employees about current threats, security policies, and appropriate behaviors to prevent security incidents.
+
+Card 47
+Q: What type of attack involves using fake websites to steal user credentials?
+A: Phishing
+B: Pharming
+C: Spear phishing
+D: Smishing
+Answer: A - Phishing uses deceptive emails or websites to trick users into entering credentials or sensitive information.
+
+Card 48
+Q: What is the main purpose of a security policy enforcement?
+A: To ensure compliance with security policies and procedures
+B: To install security software
+C: To audit user activity
+D: To train employees
+Answer: A - Policy enforcement ensures that security policies are actually followed and maintained throughout the organization.
+
+Card 49
+Q: Which of the following is a type of access control mechanism?
+A: Access control lists (ACLs)
+B: Digital signatures
+C: Hash functions
+D: Encryption algorithms
+Answer: A - ACLs are specific mechanisms that define which users or system processes can access particular objects or resources.
+
+Card 50
+Q: What is the purpose of a security metrics framework?
+A: To measure and evaluate the effectiveness of security controls
+B: To encrypt data transmission
+C: To train employees
+D: To audit network performance
+Answer: A - Security metrics frameworks provide quantitative measures to assess how well security controls are performing and whether they meet organizational objectives.
+
