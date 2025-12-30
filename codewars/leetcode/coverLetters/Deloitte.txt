@@ -1,0 +1,29 @@
+Dear Hiring Committee,
+
+I am eager to apply for the Agentic AI Specialist role at Deloitte(or any roles). My career has been built around turning cutting‑edge AI research into real‑world, human‑centered products—exactly the blend Deloitte champions in its “Together Makes Progress” narrative.
+
+Why Deloitte and I Align
+
+Human‑centered, trustworthy agents. My work and passion utilizing local models, LLMs, and conversational agents emphasizes controllable, ethical systems that augment decision‑making and I truly feel that not utilizing this amazing tool will truly start showing huge diffrences in devs.
+Enterprise‑scale agent networks. I have helped design autonomous workflows for logistics and exploration (Sears aka transformCo) that embed AI into the operating layer, not just the customer layer but also across day to day tech needs logging and utilizing all issues that techs came across daily.
+Impact across regulated domains. I am fascinated by how agentic AI can cut clinical‑trial delays by automating data‑intensive tasks, freeing teams for strategic work and letting us cook faster and implement ideas quickly.
+
+What I Bring
+Agentic architecture design (Teaching models to emulate our years of expertise is a huge goal of mine, goal‑conditioned policies)
+Safety & alignment frameworks (reward‑model verification, interpretability dashboards)
+Supports the “human‑centered AI” mandate and risk mitigation.
+Cloud‑native MLOps (Terraform, Kubernetes, CI/CD)
+Enables scalable, reliable AI services under the “Operate‑to‑Innovate” pillar.
+Cross‑functional leadership (agile squads, design‑thinking workshops)
+Mirrors Deloitte’s multidisciplinary team model.
+Thought leadership (publications, conference talks, innovation through trial and error)
+Enriches Deloitte’s Insights platform and thought‑partner positioning.
+
+
+I would welcome the chance to discuss how my technical expertise and collaborative approach can help Deloitte continue to make progress together. I will forever put in more hours after our "9-5s" utilizing these new amazing tools.
+
+Thank you for your consideration.
+
+Sincerely,
+
+William Heeb

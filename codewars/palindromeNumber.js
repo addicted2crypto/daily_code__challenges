@@ -37,7 +37,7 @@ var isPalindrome = function(x) {
     let original = x;
     
     while (x !== 0) {
-        const digit = x % 10;
+        const digit = x % 10; // this grabs the last digit
         reversed = reversed * 10 + digit;
         x = Math.floor(x / 10);
     }
