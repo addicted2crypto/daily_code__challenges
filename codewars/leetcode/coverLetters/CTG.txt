@@ -1,0 +1,25 @@
+Dear Capital Technology Group Hiring Team,
+I am writing to express my genuine interest in the Software Engineer position at CTG. I was referred by a friend currently working with your team, and after learning more about your mission to modernize federal government software, I'm convinced this is exactly where my experience and passion intersect.
+I was currently a DoD contractor at the Defense Health Agency, building mission-critical health IT systems that serve millions of military personnel and their families. That experience has fundamentally shaped how I think about software engineering: systems must be reliable, secure, and designed with real user needs in mind. CTG's commitment to rapid, iterative delivery of value in collaboration with federal clients mirrors this philosophy perfectly.
+Why I'm a Strong Fit for CTG
+I understand federal government contracting intimately. For a year at DHA, I've operated within the constraints, security requirements, and bureaucratic realities of federal systems. I know what it means to ship code that can't fail, to navigate compliance requirements, and to maintain security protocols (CompTIA Security+ certified) while moving fast. I understand the DoD approval processes(ironicly all teams were different), the audit trails, and the mindset required to build systems the government can trust. Most engineers don't have this context—I do.
+I ship cutting-edge technology in conservative environments. At DHA, I architected and helped curate the first government blockchain application in production (Hyperledger Iroha). I didn't do this by asking permission endlessly—I built prototypes, demonstrated value, and got buy-in incrementally. I also built a NestJS SDK that reduced team onboarding from 2 days to 3 hours, adopted across four DoD teams. This is exactly what CTG does: evaluate emerging technologies, prove their value, and accelerate adoption.
+My technical stack directly matches your needs. React, TypeScript, JavaScript, Python, Node.js, PostgreSQL, Docker—I used these daily at DHA. I've built full-stack systems from frontend UX to database optimization to DevOps (Docker, AWS, CI/CD pipelines). I'm comfortable learning new frameworks quickly (I've shipped in NestJS, Django, Rust, Solidity across different projects). Whatever technology stack a federal client needs, I can contribute immediately(I love learning new stacks).
+I like to try and modernize. Federal systems are often legacy(so much C#), brittle, and resistant to change(sitecore..). But I've seen that agencies desperately want better technology and better user experiences. At DHA, I've mainlined modern tools (Sitecore CMS, modern JavaScript frameworks) into enterprise government systems. I understand the balance: respect the constraints, but push for better. That's civic tech modernization.
+What I'll Bring to CTG
+
+Immediate contribution: 7+ years full-stack engineering experience, 1+ year DoD contracting. I can jump into any project and contribute from day one.
+Government fluency: I speak both languages—federal bureaucracy AND modern software delivery. I can translate between stakeholders.
+Learning velocity: I've shipped in blockchains, CMS systems, AI platforms, and web3 dApps. I thrive in the "learn a new tech stack" phase that consulting demands.
+Mission alignment: I'm genuinely excited by the challenge of modernizing federal technology. It's not just a job; it matters.
+
+Going Forward
+CTG's approach—small multidisciplinary teams using agile methodologies to solve complex federal problems—is exactly where I want to direct my energy. I've been in the trenches at DHA. I know what works and what doesn't in government. I know where the real friction points are, where modern tech creates value, and how to navigate the approval processes.
+I'm ready to help CTG continue its track record of delivering excellence to federal clients.
+Thank you for considering my application. I'd welcome the opportunity to discuss how my government contracting experience and full-stack expertise can contribute to your mission.
+Sincerely,
+William Heeb
+https://www.linkedin.com/in/william360/
+Portfolio: williamsforeverportfolio.vercel.app
+Email: tundra2727@gmail.com
+CompTIA Security+ Certified
