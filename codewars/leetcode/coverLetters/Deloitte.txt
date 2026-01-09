@@ -1,29 +1,19 @@
 Dear Hiring Committee,
-
-I am eager to apply for the Agentic AI Specialist role at Deloitte(or any roles). My career has been built around turning cutting‑edge AI research into real‑world, human‑centered products—exactly the blend Deloitte champions in its “Together Makes Progress” narrative.
-
-Why Deloitte and I Align
-
-Human‑centered, trustworthy agents. My work and passion utilizing local models, LLMs, and conversational agents emphasizes controllable, ethical systems that augment decision‑making and I truly feel that not utilizing this amazing tool will truly start showing huge diffrences in devs.
-Enterprise‑scale agent networks. I have helped design autonomous workflows for logistics and exploration (Sears aka transformCo) that embed AI into the operating layer, not just the customer layer but also across day to day tech needs logging and utilizing all issues that techs came across daily.
-Impact across regulated domains. I am fascinated by how agentic AI can cut clinical‑trial delays by automating data‑intensive tasks, freeing teams for strategic work and letting us cook faster and implement ideas quickly.
-
-What I Bring
-Agentic architecture design (Teaching models to emulate our years of expertise is a huge goal of mine, goal‑conditioned policies)
-Safety & alignment frameworks (reward‑model verification, interpretability dashboards)
-Supports the “human‑centered AI” mandate and risk mitigation.
-Cloud‑native MLOps (Terraform, Kubernetes, CI/CD)
-Enables scalable, reliable AI services under the “Operate‑to‑Innovate” pillar.
-Cross‑functional leadership (agile squads, design‑thinking workshops)
-Mirrors Deloitte’s multidisciplinary team model.
-Thought leadership (publications, conference talks, innovation through trial and error)
-Enriches Deloitte’s Insights platform and thought‑partner positioning.
-
-
-I would welcome the chance to discuss how my technical expertise and collaborative approach can help Deloitte continue to make progress together. I will forever put in more hours after our "9-5s" utilizing these new amazing tools.
-
+I am writing to express my strong interest in the Software Engineer (IC3) position within OCI's OLTP organization. My career has been defined by building and maintaining mission-critical systems under rigorous requirements—from government health platforms serving millions of users to distributed consensus systems—and Oracle's commitment to cloud infrastructure excellence resonates deeply with my technical philosophy.
+Why Oracle OLTP and I Align
+Mission-critical systems at scale. At the Defense Health Agency, I've architected and maintained highly available distributed systems (mobile.health.mil, TRICARE platforms) serving thousands of concurrent users. I understand the weight of building systems that cannot fail—the operational discipline, the architectural trade-offs, the meticulous testing. This is precisely Oracle's world.
+Security and compliance under pressure. My CompTIA Security+ certification and active DoD security clearance reflect my deep commitment to building trustworthy systems. In government contracting, security isn't optional—it's foundational. I bring that mentality to every architectural decision.
+Distributed systems thinking. My work designing and auditing smart contracts on Avalanche gave me concrete, hands-on experience with distributed consensus, data persistence under Byzantine conditions, and state synchronization across networked nodes. I've debugged why systems behave unexpectedly under load and understood the fundamental tradeoffs between consistency, availability, and partition tolerance.
+What I Bring to Oracle
+Architectural ownership. I don't just write code—I own system behavior. My MVC and cloud infrastructure work demonstrates ability to design modular, scalable architecture and mentor other engineers in architectural thinking.
+Language versatility. While my primary expertise is C# and .NET, my career shows consistent pattern of rapidly learning new ecosystems—from Sitecore CMS to NestJS SDKs to blockchain development. Java and C++ are conceptually familiar; what matters is that I understand systems-level thinking, memory management, concurrency patterns, and performance optimization that transcend syntax.
+Full-stack perspective. I've worked across application layers, infrastructure, databases, and networking protocols. This breadth lets me design holistic solutions rather than point fixes—essential for centralized database systems serving Oracle Public Cloud.
+Proven impact under constraints. I've shipped the first DoD blockchain in production and created SDKs adopted across four teams. I deliver results with limited resources and ambiguous requirements—exactly what startup-phase and scaling teams need.
+Going Forward
+I'm genuinely excited about the distributed systems challenges Oracle solves. The move from government systems to cloud infrastructure feels like a natural evolution—same rigor, larger impact, cutting-edge technology. I'm ready to deepen my systems expertise, contribute to architectural decisions, and grow into leadership alongside the team.
+I'd welcome the opportunity to discuss how my systems thinking, security mindset, and track record of delivering high-stakes infrastructure can contribute to Oracle's mission.
 Thank you for your consideration.
-
 Sincerely,
-
 William Heeb
+[https://www.linkedin.com/in/william360/]
+[Portfolio: williamsforeverportfolio.vercel.app]
