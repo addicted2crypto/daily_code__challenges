@@ -18,7 +18,7 @@ Array.prototype.filter = function (func) {
       }
     }
     return filteredNums;
-    /*also this works */
+   // OPTIONAL SOLUTION: 
   //  return this.reduce((acc, curr, index, arr) => {
   //     if (func(curr, index, arr)) acc.push(curr);
   //     return acc;
