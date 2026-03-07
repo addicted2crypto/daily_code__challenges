@@ -1,12 +1,6 @@
 // **Implement Array.prototype.filter()**
 
-// 1413972% of 9117,101 of 7,105hjyao1 Issue Reported
-//  JavaScript
-// Node v18.x
-// VIM
-// EMACS
-// Instructions
-// Output
+
 // What we want to implement is Array.prototype.filter() function, just like the existing Array.prototype.filter(). Another similar function is _.filter() in underscore.js and lodash.js.
 
 // The usage will be quite simple, like:
