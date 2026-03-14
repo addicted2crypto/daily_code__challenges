@@ -2,7 +2,6 @@
 Command
 Purpose
 Category
-Emoji
 git init
 Initialize a new Git repository
 Setup
